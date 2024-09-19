@@ -1,0 +1,67 @@
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(135deg, #dffff4 0%, #c3cfe2 100%);
+}
+
+.card {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    background-color:#edfffb;
+}
+
+.card-title {
+    font-family: 'Arial', sans-serif;
+    color: #3a3a3a;
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.card-text p {
+    margin-bottom: 15px;
+}
+
+.text-body-secondary {
+    color: #888;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.img-fluid {
+    border-radius: 20px 0 0 20px;
+    height: 100%;
+    object-fit: cover;
+}
+.text-body-secondary {
+    position: relative;
+    display: inline-block;
+}
+
+.text-body-secondary::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, #ff9a9e 0%, #fad0c4 100%);
+}
